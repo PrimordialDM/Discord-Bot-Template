@@ -1,0 +1,17 @@
+GitHub description:
+Production-scale discord.py master bot template by PrimordialDM with slash commands, UI, moderation, economy, tickets, leveling, polls, giveaways, reminders, starboard, automod, and music skeletons.
+
+Suggested tagline:
+A master-scale Discord bot reference for builders who want ready-made templates, production patterns, and plug-in systems instead of a bare starter.
+
+Suggested topics:
+discord
+discord-bot
+discord-py
+python
+slash-commands
+discord-ui
+moderation-bot
+music-bot
+ticket-bot
+economy-bot

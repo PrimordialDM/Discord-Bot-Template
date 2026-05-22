@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest a new bot template, system, or repo improvement
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Request type
+      options:
+        - New bot system template
+        - Improvement to existing template
+        - Modular starter improvement
+        - Documentation improvement
+        - GitHub/repository improvement
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What use case is currently missing?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should be added or changed?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra context
+      description: Links, command ideas, UX notes, or constraints.
+    validations:
+      required: false

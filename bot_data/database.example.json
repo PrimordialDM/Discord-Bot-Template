@@ -1,0 +1,32 @@
+{
+  "polls": {},
+  "giveaways": {},
+  "reminders": [],
+  "guild:123456789012345678": {
+    "starboard": {
+      "channel_id": 0,
+      "threshold": 3,
+      "posted": {}
+    },
+    "automod": {
+      "enabled": true,
+      "spam_threshold": 5,
+      "caps_threshold": 70,
+      "max_mentions": 5,
+      "block_links": false,
+      "whitelist_role_ids": [],
+      "action_warn": true,
+      "action_timeout_m": 5,
+      "action_ban": false
+    },
+    "stats_channels": {},
+    "suggestions": {},
+    "suggestion_counter": 0
+  },
+  "user:123456789012345678": {
+    "coins": 0,
+    "xp": 0,
+    "level": 1,
+    "daily_claimed": false
+  }
+}
