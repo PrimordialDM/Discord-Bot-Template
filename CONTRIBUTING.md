@@ -11,6 +11,11 @@ This repository contains two things:
 
 Contributions should improve one of these without making the repository harder to understand.
 
+## Project Values
+
+Contributions must align with fair use, user safety, and responsible open-source practice.
+This repository should not be advanced toward exploitative, deceptive, or harmful applications.
+
 ## Contribution Rules
 
 - Keep changes focused.
@@ -19,6 +24,18 @@ Contributions should improve one of these without making the repository harder t
 - Avoid adding hidden external service requirements.
 - Document any new environment variable in `.env.example` and `README.md`.
 - If you add a dependency, update `requirements.txt` and explain why in the PR.
+- Do not submit features intended for abusive automation, exploitative gambling flows, or manipulation of sensitive audiences.
+- If a feature can be dual-use, include explicit safeguards and abuse-mitigation notes.
+
+## Prohibited Contribution Areas
+
+Pull requests are out of scope and may be closed without merge if they primarily enable:
+
+- unlawful behavior or platform policy evasion
+- scam, phishing, or impersonation workflows
+- harassment, stalking, or doxxing automation
+- exploitative betting/gambling systems, especially where minors or financially vulnerable users could be targeted
+- engagement loops designed to pressure sensitive audiences into harmful spending or risky behavior
 
 ## Development Guidelines
 
@@ -27,6 +44,8 @@ Contributions should improve one of these without making the repository harder t
 - Keep slash commands typed and documented
 - Prefer reusable helpers in `utils/` and `views/`
 - Keep example data safe to commit; never commit secrets
+- Default to least privilege for permissions and intents
+- Prefer opt-in behavior over forced or hidden behavior
 
 ## Before Opening a PR
 
@@ -34,6 +53,8 @@ Contributions should improve one of these without making the repository harder t
 2. Confirm `.env.example` still matches the code.
 3. Update README sections affected by your change.
 4. Keep runtime files out of git.
+5. Confirm the change does not introduce harmful-use pathways.
+6. Add or update safeguards for moderation, permissions, and abuse controls when relevant.
 
 ## Pull Request Notes
 
@@ -43,3 +64,4 @@ Include:
 - why it changed
 - whether it affects the modular starter, the master reference, or both
 - any new env vars, commands, or dependencies
+- explicit risk notes for dual-use features and how abuse is mitigated

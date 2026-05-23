@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Responsible Use Notice (Project Policy)
+
+This repository is published under the MIT License above.
+The maintainers state a strong ethical expectation that the software and derivative templates be used only for lawful, fair, and non-exploitative purposes.
+
+The maintainers do not endorse uses involving:
+
+- harm to children or other sensitive audiences
+- harassment, abuse, coercion, or deceptive manipulation
+- scams, fraud, or privacy-invasive tracking
+- exploitative gambling workflows, including mechanics designed to pressure vulnerable users
+
+If you require legally enforceable use restrictions, adopt a different license for your own downstream project that explicitly includes those terms.
